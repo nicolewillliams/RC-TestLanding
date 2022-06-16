@@ -1,0 +1,3416 @@
+[
+    {
+        "id": 1,
+        "title": "Heat Waves",
+        "slug": "Heat Waves",
+        "published_at": "20-JUN-2021 08:03:00",
+        "artist": "Glass Animals",
+        "price": {
+            "amount": 0.244,
+            "currency": "wETH"
+        },
+        "likeCount": 322,
+        "categories": ["Indie/ Alternative", "Pop"],
+        "images": [
+            {
+                "src": "/images/albumcovers/heatwaves.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-02.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-03.jpg"
+            }
+        ],
+        "auction_date": "2024-10-08",
+        "authors": [
+            {
+                "name": "Mark Jordan",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-2.png"
+                }
+            },
+            {
+                "name": "Farik Shaikh",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-3.png"
+                }
+            },
+            {
+                "name": "John Doe",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            }
+        ],
+        "bitCount": 15,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "Art Decco",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "fixed-price"
+    },
+    {
+        "id": 2,
+        "title": "pushin P (feat. Young Thug)",
+        "slug": "pushin P (feat. Young Thug)",
+        "published_at": "21-JUN-2021 08:03:00",
+        "artist": "Gunna",
+        "price": {
+            "amount": 0.244,
+            "currency": "wETH"
+        },
+        "likeCount": 322,
+        "categories": ["Hip-Hop"],
+        "images": [
+            {
+                "src": "/images/albumcovers/pushinP.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/2.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/3.jpg"
+            }
+        ],
+        "auction_date": "2023-11-08",
+        "authors": [
+            {
+                "name": "Farik Shaikh",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            },
+            {
+                "name": "Olive Yew",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-6.png"
+                }
+            },
+            {
+                "name": "Rita Book",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-8.png"
+                }
+            }
+        ],
+        "bitCount": 13,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "Art Decco",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "timed-auction"
+    },
+    {
+        "id": 3,
+        "title": "Get Into It (Yuh)",
+        "slug": "Get Into It (Yuh)",
+        "published_at": "25-JAN-2022 10:55:00",
+        "artist": "Doja Cat",
+        "price": {
+            "amount": 0.218,
+            "currency": "wETH"
+        },
+        "likeCount": 12,
+        "categories": ["Pop"],
+        "images": [
+            {
+                "src": "/images/albumcovers/getintoit.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/5.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/6.jpg"
+            }
+        ],
+        "auction_date": "2023-11-08",
+        "authors": [
+            {
+                "name": "Rita Book",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-8.png"
+                }
+            },
+            {
+                "name": "Ray Sin",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-4.png"
+                }
+            },
+            {
+                "name": "A. Mused",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-9.png"
+                }
+            }
+        ],
+        "bitCount": 30,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "BoredApeYachtClub",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "fixed-price"
+    },
+    {
+        "id": 4,
+        "title": "Pepas",
+        "slug": "Pepas",
+        "published_at": "23-JUN-2021 08:03:00",
+        "artist": "Farruko",
+        "price": {
+            "amount": 0.265,
+            "currency": "wETH"
+        },
+        "likeCount": 20,
+        "categories": ["EDM"],
+        "images": [
+            {
+                "src": "/images/albumcovers/pepas.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/8.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/9.jpg"
+            }
+        ],
+        "auction_date": "2023-11-08",
+        "authors": [
+            {
+                "name": "Mark Jordan",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-2.png"
+                }
+            },
+            {
+                "name": "Farik Shaikh",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            },
+            {
+                "name": "John Doe",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            }
+        ],
+        "bitCount": 25,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "MutantApeYachtClub",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "not-for-sale"
+    },
+    {
+        "id": 5,
+        "title": "Leave The Door Open",
+        "slug": "Leave The Door Open",
+        "published_at": "24-JUN-2021 08:03:00",
+        "artist": "Silk Sonic",
+        "price": {
+            "amount": 0.285,
+            "currency": "wETH"
+        },
+        "likeCount": 205,
+        "categories": ["R&B"],
+        "images": [
+            {
+                "src": "/images/albumcovers/leavethedooropen.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/10.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-03.jpg"
+            }
+        ],
+        "auction_date": "2022-10-09",
+        "authors": [
+            {
+                "name": "Mark Jordan",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-2.png"
+                }
+            },
+            {
+                "name": "Liz Erd",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-3.png"
+                }
+            },
+            {
+                "name": "Peg Legge",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-11.png"
+                }
+            }
+        ],
+        "bitCount": 12,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "Art Decco",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "timed-auction"
+    },
+    {
+        "id": 6,
+        "title": "Pursuit Of Happiness",
+        "slug": "Pursuit Of Happiness",
+        "published_at": "24-JUN-2021 08:05:00",
+        "artist": "Kid Cudi",
+        "price": {
+            "amount": 0.334,
+            "currency": "wETH"
+        },
+        "likeCount": 205,
+        "categories": ["Hip-Hop"],
+        "images": [
+            {
+                "src": "/images/albumcovers/poh.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/2.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/3.jpg"
+            }
+        ],
+        "auction_date": "2023-12-09",
+        "authors": [
+            {
+                "name": "Mark Jordan",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-2.png"
+                }
+            },
+            {
+                "name": "Liz Erd",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-3.png"
+                }
+            },
+            {
+                "name": "John Doe",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            }
+        ],
+        "bitCount": 17,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "MutantApeYachtClub",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "not-for-sale"
+    },
+    {
+        "id": 7,
+        "title": "Bad Habits",
+        "slug": "Bad Habits",
+        "published_at": "24-JAN-2022 09:05:00",
+        "artist": "Ed Sheeran",
+        "price": {
+            "amount": 0.453,
+            "currency": "wETH"
+        },
+        "likeCount": 322,
+        "categories": ["Pop"],
+        "images": [
+            {
+                "src": "/images/albumcovers/badhabits.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/5.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-03.jpg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Mark Jordan",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-2.png"
+                }
+            },
+            {
+                "name": "Liz Erd",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-3.png"
+                }
+            },
+            {
+                "name": "John Doe",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            }
+        ],
+        "bitCount": 9,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "Art Decco",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "not-for-sale"
+    },
+    {
+        "id": 8,
+        "title": "3 Nights",
+        "slug": "3 Nights",
+        "published_at": "25-JAN-2022 09:55:00",
+        "artist": "Dominic Fike",
+        "price": {
+            "amount": 0.892,
+            "currency": "wETH"
+        },
+        "likeCount": 420,
+        "categories": ["Indie/ Alternative"],
+        "images": [
+            {
+                "src": "/images/albumcovers/3nights.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-02.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/3.jpg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Jone lee",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-4.png"
+                }
+            },
+            {
+                "name": "Nira Ara",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            },
+            {
+                "name": "John Doe",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            }
+        ],
+        "bitCount": 10,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "MutantApeYachtClub",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "not-for-sale"
+    },
+    {
+        "id": 9,
+        "title": "The Business",
+        "slug": "The Business",
+        "published_at": "25-JAN-2022 07:55:00",
+        "artist": "Tiësto",
+        "price": {
+            "amount": 0.756,
+            "currency": "wETH"
+        },
+        "likeCount": 20,
+        "categories": ["EDM"],
+        "images": [
+            {
+                "src": "/images/albumcovers/thebusiness.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-01.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/11.jpg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Jone lee",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-4.png"
+                }
+            },
+            {
+                "name": "Nira Ara",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            },
+            {
+                "name": "Fatima Afrafy",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-6.png"
+                }
+            }
+        ],
+        "bitCount": 8,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "Art Blocks Factory",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "open-for-offers"
+    },
+    {
+        "id": 10,
+        "title": "First Class",
+        "slug": "First Class",
+        "published_at": "24-JAN-2022 07:55:00",
+        "artist": "Jack Harlow",
+        "price": {
+            "amount": 0.566,
+            "currency": "wETH"
+        },
+        "likeCount": 205,
+        "categories": ["Pop", "Hip-Hop"],
+        "images": [
+            {
+                "src": "/images/albumcovers/firstclass.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/1.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-03.jpg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Jone lee",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-4.png"
+                }
+            },
+            {
+                "name": "Liz Erd",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-3.png"
+                }
+            },
+            {
+                "name": "Fatima Afrafy",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-6.png"
+                }
+            }
+        ],
+        "bitCount": 15,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "Art Decco",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "fixed-price"
+    },
+    {
+        "id": 11,
+        "title": "Forever After All",
+        "slug": "Forever After All",
+        "published_at": "24-FEB-2022 07:55:00",
+        "artist": "Luke Combs",
+        "price": {
+            "amount": 0.9,
+            "currency": "wETH"
+        },
+        "likeCount": 502,
+        "categories": ["Country"],
+        "images": [
+            {
+                "src": "/images/albumcovers/foreverafterall.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/portfolio-02.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/2.jpg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Jone lee",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-4.png"
+                }
+            },
+            {
+                "name": "Nira Ara",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            },
+            {
+                "name": "Fatima Afrafy",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-6.png"
+                }
+            }
+        ],
+        "bitCount": 12,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "Art Blocks Factory",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "timed-auction"
+    },
+    {
+        "id": 12,
+        "title": "Deep End",
+        "slug": "Deep End",
+        "published_at": "25-FEB-2022 07:55:00",
+        "artist": "Foushee",
+        "price": {
+            "amount": 0.544,
+            "currency": "wETH"
+        },
+        "likeCount": 308,
+        "categories": ["R&B"],
+        "images": [
+            {
+                "src": "/images/albumcovers/deepend.jpeg"
+            },
+            {
+                "src": "/images/portfolio/lg/4.jpg"
+            },
+            {
+                "src": "/images/portfolio/lg/1.jpg"
+            }
+        ],
+        "authors": [
+            {
+                "name": "Jone lee",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-4.png"
+                }
+            },
+            {
+                "name": "Nira Ara",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-5.png"
+                }
+            },
+            {
+                "name": "Fatima Afrafy",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-6.png"
+                }
+            }
+        ],
+        "bitCount": 5,
+        "owner": {
+            "name": "Brodband",
+            "slug": "/author",
+            "image": {
+                "src": "/images/client/client-1.png"
+            }
+        },
+        "collection": {
+            "name": "BoredApeYachtClub",
+            "slug": "/collection",
+            "image": {
+                "src": "/images/client/client-2.png"
+            },
+            "total_sale": "2500,000"
+        },
+        "bids": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            },
+            {
+                "id": 6,
+                "user": {
+                    "name": "Sadia Rummon",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-8.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2.5 hours ago"
+            }
+        ],
+        "properties": [
+            {
+                "id": 1,
+                "type": "HYPE TYPE",
+                "value": "CALM AF (STILL)"
+            },
+            {
+                "id": 2,
+                "type": "BASTARDNESS",
+                "value": "C00LIO BASTARD"
+            },
+            {
+                "id": 3,
+                "type": "TYPE",
+                "value": "APE"
+            },
+            {
+                "id": 4,
+                "type": "ASTARDNESS",
+                "value": "BASTARD"
+            },
+            {
+                "id": 5,
+                "type": "BAD HABIT(S)",
+                "value": "PIPE"
+            },
+            {
+                "id": 6,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 7,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "type": "ZARY",
+                "value": "APP"
+            },
+            {
+                "id": 2,
+                "type": "SOMALIAN",
+                "value": "TRIBUTE"
+            },
+            {
+                "id": 3,
+                "type": "TUNA",
+                "value": "PIPE"
+            },
+            {
+                "id": 4,
+                "type": "BID",
+                "value": "BPEYti"
+            },
+            {
+                "id": 5,
+                "type": "ASTRAGENAKAR",
+                "value": "BASTARD"
+            },
+            {
+                "id": 8,
+                "type": "CITY",
+                "value": "TOKYO"
+            }
+        ],
+        "history": [
+            {
+                "id": 1,
+                "user": {
+                    "name": "Allen Waltker",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-3.png"
+                    }
+                },
+                "amount": "0.234wETH",
+                "bidAt": "1 hours ago"
+            },
+            {
+                "id": 2,
+                "user": {
+                    "name": "Joe Biden",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-4.png"
+                    }
+                },
+                "amount": "0.09wETH",
+                "bidAt": "1.30 hours ago"
+            },
+            {
+                "id": 3,
+                "user": {
+                    "name": "Sonial Mridha",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-5.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.35 hours ago"
+            },
+            {
+                "id": 4,
+                "user": {
+                    "name": "Tribute Dhusra",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-6.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "1.55 hours ago"
+            },
+            {
+                "id": 5,
+                "user": {
+                    "name": "Sonia Sobnom",
+                    "slug": "/author",
+                    "image": {
+                        "src": "/images/client/client-7.png"
+                    }
+                },
+                "amount": "0.07wETH",
+                "bidAt": "2 hours ago"
+            }
+        ],
+        "highest_bid": {
+            "amount": "0.234wETH",
+            "bidder": {
+                "name": "Brodband",
+                "slug": "/author",
+                "image": {
+                    "src": "/images/client/client-1.png"
+                }
+            }
+        },
+        "sale_type": "open-for-offers"
+    }
+]

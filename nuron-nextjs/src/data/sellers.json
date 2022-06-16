@@ -1,0 +1,343 @@
+[
+    {
+        "id": 1,
+        "name": "Skrillex",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/skrillex.jpeg"
+        },
+        "total_sale": 2500000,
+        "top_since": "1 day",
+        "isVarified": false
+    },
+    {
+        "id": 2,
+        "name": "Jack Harlow",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-2.png"
+        },
+        "total_sale": 2300000,
+        "top_since": "7 days",
+        "isVarified": false
+    },
+    {
+        "id": 3,
+        "name": "Katy Perry",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-3.png"
+        },
+        "total_sale": 2700000,
+        "top_since": "30 days",
+        "isVarified": true
+    },
+    {
+        "id": 4,
+        "name": "Joji",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-4.png"
+        },
+        "total_sale": 2400000,
+        "top_since": "7 days",
+        "isVarified": true
+    },
+    {
+        "id": 5,
+        "name": "Jason Derulo",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-5.png"
+        },
+        "total_sale": 2200000,
+        "top_since": "15 days",
+        "isVarified": false
+    },
+    {
+        "id": 6,
+        "name": "Zeds Dead",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-6.png"
+        },
+        "total_sale": 2900000,
+        "top_since": "7 days",
+        "isVarified": false
+    },
+    {
+        "id": 7,
+        "name": "Snoop Dogg",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-7.png"
+        },
+        "total_sale": 3300000,
+        "top_since": "30 days",
+        "isVarified": true
+    },
+    {
+        "id": 8,
+        "name": "Kid Cudi",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-8.png"
+        },
+        "total_sale": 1300000,
+        "top_since": "7 days",
+        "isVarified": false
+    },
+    {
+        "id": 9,
+        "name": "Lil Uzi Vert",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-9.png"
+        },
+        "total_sale": 5300000,
+        "top_since": "30 days",
+        "isVarified": false
+    },
+    {
+        "id": 10,
+        "name": "Oliver Tree",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-10.png"
+        },
+        "total_sale": 230000,
+        "top_since": "7 days",
+        "isVarified": true
+    },
+    {
+        "id": 11,
+        "name": "Bryce Vine",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-11.png"
+        },
+        "total_sale": 2320000,
+        "top_since": "7 days",
+        "isVarified": false
+    },
+    {
+        "id": 12,
+        "name": "Alina Baraz",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-13.png"
+        },
+        "total_sale": 2300300,
+        "top_since": "30 days",
+        "isVarified": true
+    },
+    {
+        "id": 13,
+        "name": "Clairo",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-14.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "7 days",
+        "isVarified": false
+    },
+    {
+        "id": 14,
+        "name": "ZHU",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-15.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "30 days",
+        "isVarified": false
+    },
+    {
+        "id": 15,
+        "name": "Vince Staples",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/vincestaples.jpeg"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": true
+    },
+    {
+        "id": 16,
+        "name": "BROCKHAMPTON",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/brockhampton.jpeg"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": false
+    },
+    {
+        "id": 17,
+        "name": "Pusha T",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/pushat.jpeg"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": true
+    },
+    {
+        "id": 18,
+        "name": "Bad Bunny",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/badbunny.jpeg"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": false
+    },
+    {
+        "id": 19,
+        "name": "Doja Cat",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/dojacat.jpeg"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": true
+    },
+    {
+        "id": 20,
+        "name": "The Kid Laroi",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/thekidlaroi.jpeg"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": false
+    },
+    {
+        "id": 21,
+        "name": "Lil Durk",
+        "slug": "/author",
+        "image": {
+            "src": "/images/artistprofilepics/lildurk.jpeg"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": true
+    },
+    {
+        "id": 22,
+        "name": "SZA",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-15.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": false
+    },
+    {
+        "id": 23,
+        "name": "Halsey",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-2.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "1 day",
+        "isVarified": true
+    },
+    {
+        "id": 24,
+        "name": "Morgan Wallen",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-1.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "30 days",
+        "isVarified": false
+    },
+    {
+        "id": 25,
+        "name": "Umphrey's McGee",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-5.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "7 days",
+        "isVarified": true
+    },
+    {
+        "id": 26,
+        "name": "$NOT",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-7.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "30 days",
+        "isVarified": false
+    },
+    {
+        "id": 27,
+        "name": "Playboi Carti",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-9.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "15 days",
+        "isVarified": false
+    },
+    {
+        "id": 28,
+        "name": "Excision",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-2.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "15 days",
+        "isVarified": true
+    },
+    {
+        "id": 29,
+        "name": "San Holo",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-12.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "7 days",
+        "isVarified": true
+    },
+    {
+        "id": 30,
+        "name": "Bazzi",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-4.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "15 days",
+        "isVarified": false
+    },
+    {
+        "id": 31,
+        "name": "DaBaby",
+        "slug": "/author",
+        "image": {
+            "src": "/images/client/client-10.png"
+        },
+        "total_sale": 2304400,
+        "top_since": "15 days",
+        "isVarified": false
+    }
+]

@@ -1,0 +1,97 @@
+{
+    "id": "footer-data-01",
+    "logo-widget": {
+        "logo": [
+            {
+                "src": "/images/logo/white-logo.png",
+                "alt": "logo"
+            }
+        ],
+        "text": "Created with the collaboration of over 60 of the world's best Nuron Artists."
+    },
+    "newsletter-widget": {
+        "title": "Get The Latest Nuron Updates",
+        "note": "Email is safe. We don't spam."
+    },
+    "quicklink-widget": {
+        "title": "Nuron",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Protocol Explore",
+                "path": "/explore-01"
+            },
+            {
+                "id": 2,
+                "text": "System Token",
+                "path": "/about"
+            },
+            {
+                "id": 3,
+                "text": "Otimize Time",
+                "path": "/about"
+            },
+            {
+                "id": 4,
+                "text": "Visual Checking",
+                "path": "/about"
+            },
+            {
+                "id": 5,
+                "text": "Fadeup System",
+                "path": "/blog"
+            },
+            {
+                "id": 6,
+                "text": "Activity Log",
+                "path": "/activity"
+            },
+            {
+                "id": 7,
+                "text": "System Auto Since",
+                "path": "/blog"
+            }
+        ]
+    },
+    "information-widget": {
+        "title": "Information",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Market Explore",
+                "path": "/explore-01"
+            },
+            {
+                "id": 2,
+                "text": "Ready Token",
+                "path": "/about"
+            },
+            {
+                "id": 3,
+                "text": "Otimize Time",
+                "path": "/about"
+            },
+            {
+                "id": 4,
+                "text": "Main Option",
+                "path": "/about"
+            },
+            {
+                "id": 5,
+                "text": "Blog Grid",
+                "path": "/blog"
+            },
+            {
+                "id": 6,
+                "text": "About Us",
+                "path": "/about"
+            },
+            {
+                "id": 7,
+                "text": "Fix Bug",
+                "path": "/blog"
+            }
+        ]
+    },
+    "copyright_text": "©2022 Radiochain Co. All rights reserved"
+}

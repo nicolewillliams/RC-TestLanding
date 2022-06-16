@@ -1,0 +1,106 @@
+{
+    "title": "about",
+    "content": [
+        {
+            "section": "about-section",
+            "section_title": {
+                "title": "The hottest music on the block(chain)."
+            },
+            "image": {
+                "src": "/images/banner/welcome-banner-v2.png"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "What's That?",
+                    "description": "Radiochain is on a mission to provide the music industry with a better business model geared toward artists and fans. Currently, big record labels take a large portion of artist earnings. In 2017, the industry generated $43 billion, and artists only saw 12% of that. While technology has come a long way over the decades, the industry's business model - that is inherently unfair to artists - has not followed suit. Radiochain is here to change that.",
+                    "path": "/blog"
+                },
+                {
+                    "id": 2,
+                    "title": "How?",
+                    "description": "Radiochain turns the world's music library into a stock market exchange using the latest blockchain technology. Every song on the platform has its own stock that fans can invest in. Instead of buying and selling shares of traditional companies, people can invest directly into their favorite artists and tunes. This model, coupled with the use of on-chain smart contracts, creates a new avenue for artists to earn money and do what they love."
+                }
+            ]
+        },
+        {
+            "section": "quote-section",
+            "section_title": {
+                "title": "\"Web3 Is The Future Of Entertainment\" - Forbes"
+            },
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Radiochain creates a 1:1 relationship between artists and fans - the way it should have always been. The use of blockchain elements lets artists interact with fans on their terms, without big record labels standing in the middle. Feel free to join our Discord, and follow along for more information."
+                }
+            ]
+        },
+        {
+            "section": "funfact-section",
+            "section_title": {
+                "title": "Radiochain Statistics"
+            },
+            "funfacts": [
+                {
+                    "id": 1,
+                    "title": "Artists on board",
+                    "counter": 15
+                },
+                {
+                    "id": 2,
+                    "title": "Fans",
+                    "counter": 20,
+                    "suffix": "+"
+                },
+                {
+                    "id": 3,
+                    "title": "Nuron Earning",
+                    "counter": 700
+                },
+                {
+                    "id": 4,
+                    "title": "Level One Seller",
+                    "counter": 900,
+                    "suffix": "+"
+                }
+            ]
+        },
+        {
+            "section": "cta-section",
+            "headings": [
+                {
+                    "id": 1,
+                    "content": "Artists and fans have the power to change the face of the music industry. <br> Sign up to join the movement."
+                }
+            ],
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Subscribing to our newsletter will give you early access to the site, along with other features as we continue to build our marketplace!"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/create",
+                    "content": "Create"
+                },
+                {
+                    "id": 2,
+                    "path": "/contact",
+                    "content": "Contact Us",
+                    "color": "primary-alta"
+                }
+            ],
+            "image": {
+                "src": "/images/bg/bg-image-6.jpg"
+            }
+        },
+        {
+            "section": "blog-section",
+            "section_title": {
+                "title": "Our Recent Blog"
+            }
+        }
+    ]
+}
