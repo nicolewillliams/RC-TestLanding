@@ -11,22 +11,12 @@
     },
     {
         "id": 3,
-        "text": "Explore",
-        "path": "#!"
+        "text": "Whitepaper",
+        "path": "/whitepaper"
     },
     {
         "id": 4,
-        "text": "Pages",
-        "path": "#!"
-    },
-    {
-        "id": 5,
-        "text": "Blog",
-        "path": "/blog"
-    },
-    {
-        "id": 6,
-        "text": "Contact",
-        "path": "/contact"
+        "text": "Sign Up",
+        "path": "/sign-up"
     }
 ]

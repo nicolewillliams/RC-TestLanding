@@ -113,6 +113,36 @@ body.modal-open {
     }
 }
 
+/* Sign Up Modal Popup  */
+.signup-modal-wrapper {
+    .modal-header {
+        &.signup-modal-header {
+            justify-content: flex-start !important;
+        }
+    }
+}
+
+.signup-form-box {
+    h6 {
+        &.title {
+            margin-bottom: 15px;
+        }
+    }
+    textarea {
+        height: 100px;
+        background: var(--background-color-1);
+        font-size: 16px;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding: 5px 10px;
+        &:focus {
+            border-radius: 5px;
+            border: 2px solid var(--color-primary) !important;
+        }
+    }
+}
+
 /*--------------------------------
     Place Bid Modal Popup  
 ---------------------------------*/
@@ -212,7 +242,7 @@ body.modal-open {
                 .bid-content-top {
                     display: block;
                     border: none;
-                    padding: 0;
+                    padding: 15px;
                     .bid-content-left {
                         display: flex;
                         position: relative;

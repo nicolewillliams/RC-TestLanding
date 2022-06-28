@@ -5,7 +5,6 @@ import clsx from "clsx";
 import Anchor from "@ui/anchor";
 import CountdownTimer from "@ui/countdown/layout-01";
 import ClientAvatar from "@ui/client-avatar";
-import ShareDropdown from "@components/share-dropdown";
 import ProductBid from "@components/product-bid";
 import Button from "@ui/button";
 import { ImageType } from "@utils/types";
@@ -67,10 +66,9 @@ const Product = ({
                             />
                         ))}
                         <Anchor className="more-author-text" path={`/sign-up`}>
-                            {bitCount}+ Place Bit.
+                            Biggest Fans
                         </Anchor>
                     </div>
-                    {!disableShareDropdown && <ShareDropdown />}
                 </div>
                 <Anchor>
                     <span className="product-name">{title}</span>

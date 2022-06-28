@@ -1,0 +1,35 @@
+import PropTypes from "prop-types";
+import clsx from "clsx";
+import Logo from "@components/logo";
+
+// Demo data
+import footerData from "../../../data/general/footer-02.json";
+
+const Footer = ({ className }) => (
+    <div
+        className={clsx(
+            "rn-footer-area footer-for-left-sticky-header rn-section-gapBottom",
+            className
+        )}
+    >
+        <div className="container">
+            <div className="row">
+                <div className="inner text-center">
+                    <Logo logo={footerData.logo} />
+                    <p
+                        className="description mt--30"
+                        dangerouslySetInnerHTML={{
+                            __html: footerData.copyright_text,
+                        }}
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+);
+
+Footer.propTypes = {
+    className: PropTypes.string,
+};
+
+export default Footer;

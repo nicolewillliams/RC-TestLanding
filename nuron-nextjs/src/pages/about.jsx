@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import SEO from "@components/seo";
 import Wrapper from "@layout/wrapper";
-import Header from "@layout/header/header-01";
-import Footer from "@layout/footer/footer-01";
+import Header from "@layout/header/header-03";
+import Footer from "@layout/footer/footer-04";
 import AboutArea from "@containers/about/layout-02";
 import QuoteArea from "@containers/quote-area";
 import FunfactArea from "@containers/funfact";
@@ -23,9 +23,7 @@ const About = ({ posts }) => {
             <main id="main-content">
                 <AboutArea data={content["about-section"]} />
                 <QuoteArea data={content["quote-section"]} />
-                <FunfactArea data={content["funfact-section"]} />
                 <CTAArea data={content["cta-section"]} />
-                <BlogArea data={{ ...content["blog-section"], posts }} />
             </main>
             <Footer />
         </Wrapper>

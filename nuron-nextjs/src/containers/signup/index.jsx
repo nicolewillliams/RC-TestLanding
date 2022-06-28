@@ -1,21 +1,11 @@
 import PropTypes from "prop-types";
 import clsx from "clsx";
-import SignupForm from "@components/signup-form";
+import MailchimpForm from "@containers/mailchimp-form";
 
 const SignupArea = ({ className, space }) => (
-    <div
-        className={clsx(
-            "login-area",
-            space === 1 && "rn-section-gapTop",
-            className
-        )}
-    >
-        <div className="container">
-            <div className="row g-5">
-                <div className="offset-2 col-lg-4 col-md-6 ml_md--0 ml_sm--0 col-sm-12">
-                    <SignupForm />
-                </div>
-            </div>
+    <div className={clsx(space === 1 && "rn-section-gapTop", className)}>
+        <div className="signup-page-container">
+            <MailchimpForm />
         </div>
     </div>
 );

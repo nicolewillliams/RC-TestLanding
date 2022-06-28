@@ -3,15 +3,14 @@
     "logo-widget": {
         "logo": [
             {
-                "src": "/images/logo/white-logo.png",
+                "src": "/images/logo/logo-white.png",
                 "alt": "logo"
             }
         ],
         "text": "Created with the collaboration of over 60 of the world's best Nuron Artists."
     },
     "newsletter-widget": {
-        "title": "Get The Latest Nuron Updates",
-        "note": "Email is safe. We don't spam."
+        "title": "Get The Latest Radiochain Updates"
     },
     "quicklink-widget": {
         "title": "Nuron",
@@ -142,5 +141,5 @@
             }
         ]
     },
-    "copyright_text": "©2022 Nuron, Inc. All rights reserved"
+    "copyright_text": "©2022 Radiochain Co. All rights reserved"
 }

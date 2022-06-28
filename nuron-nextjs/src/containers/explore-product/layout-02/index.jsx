@@ -42,7 +42,7 @@ const ExploreProductArea = ({ className, space, data }) => {
         <div
             className={clsx(
                 "rn-product-area masonary-wrapper-activation",
-                space === 1 && "rn-section-gapTop",
+                space === 1 && "rn-section-gapTop3",
                 className
             )}
         >

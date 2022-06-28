@@ -32,7 +32,7 @@ const ServiceArea = ({ className, id, space, data }) => (
                             <Service
                                 title={item.title}
                                 subtitle={item.subtitle}
-                                path={item.path}
+                                path="/sign-up"
                                 description={item.description}
                                 image={item.images[0]}
                             />

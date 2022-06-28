@@ -74,7 +74,24 @@ const AboutArea = ({ space, className, data }) => (
                             className="transparent-bg"
                             title={data.items[2].title}
                             desc={data.items[2].description}
-                            path={data.items[2].path}
+                        />
+                    </div>
+                )}
+                {data?.items?.[3] && (
+                    <div className="col-lg-6">
+                        <AboutCard
+                            className="transparent-bg"
+                            title={data.items[3].title}
+                            desc={data.items[3].description}
+                        />
+                    </div>
+                )}
+                {data?.items?.[4] && (
+                    <div className="col-lg-6">
+                        <AboutCard
+                            className="transparent-bg"
+                            title={data.items[4].title}
+                            desc={data.items[4].description}
                         />
                     </div>
                 )}

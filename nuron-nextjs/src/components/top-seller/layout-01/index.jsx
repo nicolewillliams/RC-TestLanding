@@ -17,7 +17,7 @@ const TopSeller = ({
         <div className="top-seller-wrapper">
             <div className={clsx("thumbnail", isVarified && "varified")}>
                 {image?.src && (
-                    <Anchor path={slug}>
+                    <Anchor path={"/sign-up"}>
                         <Image
                             src={image.src}
                             alt={image?.alt || name}
@@ -42,7 +42,7 @@ const TopSeller = ({
             </div>
         </div>
         {followBtn && (
-            <Button path={slug} color="primary-alta" size="small">
+            <Button path={"/sign-up"} color="primary-alta" size="small">
                 Follow
             </Button>
         )}

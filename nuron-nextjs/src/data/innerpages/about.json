@@ -20,6 +20,16 @@
                     "id": 2,
                     "title": "How?",
                     "description": "Radiochain turns the world's music library into a stock market exchange using the latest blockchain technology. Every song on the platform has its own stock that fans can invest in. Instead of buying and selling shares of traditional companies, people can invest directly into their favorite artists and tunes. This model, coupled with the use of on-chain smart contracts, creates a new avenue for artists to earn money and do what they love."
+                },
+                {
+                    "id": 3,
+                    "title": "What makes this better for artists?",
+                    "description": "Artists’ complaints about streaming are as old as streaming itself. Services like Spotify and Apple music pay artists less than pennies per stream. The Radiochain business model pays artists up front, and continues to pay them on every transaction related to their song stock. In addition, fans can invest in artists directly. This means people who already dig the way an artist sounds are helping them financially to grow in their career. As the artist uses that investment to grow their discography, the fan is growing their investment."
+                },
+                {
+                    "id": 4,
+                    "title": "What's in it for fans?",
+                    "description": "Have you ever sworn you were one of the first people to be a fan of an artist who then became mega-popular? With Radiochain, you can invest in those artists early-on and watch them (and your investment) grow! By doing this, not only are you supporting that artist to continue making music, but it also makes you part of their fan club where you can recieve exclusive content directly from the artist themself as a thanks for investing in them."
                 }
             ]
         },
@@ -31,7 +41,7 @@
             "texts": [
                 {
                     "id": 1,
-                    "content": "Radiochain creates a 1:1 relationship between artists and fans - the way it should have always been. The use of blockchain elements lets artists interact with fans on their terms, without big record labels standing in the middle. Feel free to join our Discord, and follow along for more information."
+                    "content": "Radiochain creates a 1:1 relationship between artists and fans - the way it should have always been. The use of blockchain elements lets artists interact with fans on their terms, without big record labels standing in the middle. Feel free to subscribe to our newsletter, and follow along for more information."
                 }
             ]
         },
@@ -82,18 +92,12 @@
             "buttons": [
                 {
                     "id": 1,
-                    "path": "/create",
-                    "content": "Create"
-                },
-                {
-                    "id": 2,
-                    "path": "/contact",
-                    "content": "Contact Us",
-                    "color": "primary-alta"
+                    "path": "/sign-up",
+                    "content": "Subscribe"
                 }
             ],
             "image": {
-                "src": "/images/bg/bg-image-6.jpg"
+                "src": "/images/banner/purpfans2.webp"
             }
         },
         {
