@@ -8,6 +8,7 @@ import "../assets/css/bootstrap.min.css";
 import "../assets/css/feather.css";
 import "../assets/scss/style.scss";
 import "react-toastify/dist/ReactToastify.css";
+import SSRProvider from "react-bootstrap/SSRProvider";
 
 const moralisAppId = "Zgi9h3xvYrvXHJZmYjgzbfxlTPnDq6H3RytmW0qt";
 const moralisServerURL = "https://mrnuat16od8z.usemoralis.com:2053/server";
@@ -25,11 +26,13 @@ const MyApp = ({ Component, pageProps }) => {
         document.body.className = `${pageProps.className}`;
     });
     return (
-        <MoralisProvider appId={moralisAppId} serverUrl={moralisServerURL}>
-            <ThemeProvider defaultTheme="dark">
-                <Component {...pageProps} />
-            </ThemeProvider>
-        </MoralisProvider>
+        <SSRProvider>
+            <MoralisProvider appId={moralisAppId} serverUrl={moralisServerURL}>
+                <ThemeProvider defaultTheme="dark">
+                    <Component {...pageProps} />
+                </ThemeProvider>
+            </MoralisProvider>
+        </SSRProvider>
     );
 };
 
