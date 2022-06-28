@@ -13,7 +13,6 @@ import AboutArea from "@containers/about/layout-02";
 import QuoteArea from "@containers/quote-area";
 import FunfactArea from "@containers/funfact";
 import CTAArea from "@containers/cta";
-//import BlogArea from "@containers/blog/layout-01";
 import { normalizedData } from "@utils/methods";
 
 // Demo Data
@@ -84,7 +83,7 @@ const Home = () => {
                 <FunfactArea data={content["funfact-section"]} />
                 <CTAArea data={content["cta-section"]} />
             </main>
-            <main></main>
+            <main />
             <Footer />
         </Wrapper>
     );

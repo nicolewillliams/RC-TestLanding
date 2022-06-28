@@ -51,9 +51,10 @@
     },
     "plugins": ["react", "react-hooks", "prettier", "jsx-a11y"],
     "rules": {
+        "linebreak-style": 0,
         "object-curly-newline": "off",
         "import/prefer-default-export": "off",
-        "prettier/prettier": "error",
+        "prettier/prettier": 0,
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "quotes": ["error", "double", { "allowTemplateLiterals": true }],
         "camelcase": ["off", { "properties": "never" }],

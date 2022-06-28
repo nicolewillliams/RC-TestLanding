@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Button from "@ui/button";
@@ -119,5 +120,8 @@ const SignupForm = ({ className, status, message, onValidated }) => {
 
 SignupForm.propTypes = {
     className: PropTypes.string,
+    status: PropTypes.string,
+    message: PropTypes.string,
+    onValidated: PropTypes.func,
 };
 export default SignupForm;

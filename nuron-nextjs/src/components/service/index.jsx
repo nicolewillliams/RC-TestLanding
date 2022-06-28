@@ -1,8 +1,6 @@
 import Anchor from "@ui/anchor";
 import PropTypes from "prop-types";
 import { ImageType } from "@utils/types";
-import SignupModal from "@components/modals/signup-modal";
-import { useState } from "react";
 
 const Service = ({ title, subtitle, path, description, image }) => (
     <div
@@ -41,7 +39,6 @@ Service.propTypes = {
     path: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: ImageType,
-    onClick: PropTypes.func,
 };
 
 export default Service;

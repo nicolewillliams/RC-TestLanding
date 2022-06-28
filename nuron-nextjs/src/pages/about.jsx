@@ -1,20 +1,17 @@
-import PropTypes from "prop-types";
 import SEO from "@components/seo";
 import Wrapper from "@layout/wrapper";
 import Header from "@layout/header/header-03";
 import Footer from "@layout/footer/footer-04";
 import AboutArea from "@containers/about/layout-02";
 import QuoteArea from "@containers/quote-area";
-import FunfactArea from "@containers/funfact";
 import CTAArea from "@containers/cta";
-import BlogArea from "@containers/blog/layout-01";
 import { normalizedData } from "@utils/methods";
 import { getAllPosts } from "../lib/api";
 
 // Demo data
 import aboutData from "../data/innerpages/about.json";
 
-const About = ({ posts }) => {
+const About = () => {
     const content = normalizedData(aboutData?.content || []);
     return (
         <Wrapper>
@@ -47,9 +44,5 @@ export async function getStaticProps() {
         },
     };
 }
-
-About.propTypes = {
-    posts: PropTypes.arrayOf(PropTypes.shape({})),
-};
 
 export default About;

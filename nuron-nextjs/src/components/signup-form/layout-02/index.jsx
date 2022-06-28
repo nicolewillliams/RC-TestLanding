@@ -11,7 +11,6 @@ const SignupForm = ({ className }) => {
         register,
         handleSubmit,
         formState: { errors },
-        getValues,
     } = useForm({
         mode: "onChange",
     });

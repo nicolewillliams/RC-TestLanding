@@ -1,9 +1,6 @@
 import PropTypes from "prop-types";
-import Modal from "react-bootstrap/Modal";
-import { Form, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import Button from "@ui/button";
-import SignupForm from "@components/signup-form";
 import MailchimpForm from "@containers/mailchimp-form";
+import Modal from "react-bootstrap/Modal";
 
 const SignupModal = ({ show, handleModal }) => (
     <Modal className="rn-popup-modal" show={show} onHide={handleModal} centered>

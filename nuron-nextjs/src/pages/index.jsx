@@ -7,10 +7,8 @@ import ExploreProductArea from "@containers/explore-product/layout-02";
 import CreatorArea from "@containers/creator/layout-01";
 import ServiceArea from "@containers/services/layout-01";
 import RankingArea from "@containers/ranking";
-import SignupModal from "@components/modals/signup-modal";
 import MarqueeBanner from "@components/marquee";
 import { normalizedData } from "@utils/methods";
-import { useState } from "react";
 
 // Demo data
 import homepageData from "../data/homepages/home-06.json";
@@ -24,10 +22,7 @@ export async function getStaticProps() {
 
 const Home = () => {
     const content = normalizedData(homepageData?.content || []);
-    const [showSignupModal, setShowSignupModal] = useState(false);
-    const handleSignupModal = () => {
-        setShowSignupModal((prev) => !prev);
-    };
+
     return (
         <Wrapper>
             <SEO pageTitle="Home" />

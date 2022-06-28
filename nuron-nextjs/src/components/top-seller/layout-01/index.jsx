@@ -8,7 +8,6 @@ const TopSeller = ({
     name,
     total_sale,
     image,
-    slug,
     className,
     isVarified,
     followBtn,
@@ -17,7 +16,7 @@ const TopSeller = ({
         <div className="top-seller-wrapper">
             <div className={clsx("thumbnail", isVarified && "varified")}>
                 {image?.src && (
-                    <Anchor path={"/sign-up"}>
+                    <Anchor path="/sign-up">
                         <Image
                             src={image.src}
                             alt={image?.alt || name}
@@ -29,7 +28,7 @@ const TopSeller = ({
                 )}
             </div>
             <div className="top-seller-content">
-                <Anchor path={"/sign-up"}>
+                <Anchor path="/sign-up">
                     <h6 className="name">{name}</h6>
                 </Anchor>
                 {total_sale && (
@@ -42,7 +41,7 @@ const TopSeller = ({
             </div>
         </div>
         {followBtn && (
-            <Button path={"/sign-up"} color="primary-alta" size="small">
+            <Button path="/sign-up" color="primary-alta" size="small">
                 Follow
             </Button>
         )}
@@ -52,7 +51,6 @@ const TopSeller = ({
 TopSeller.propTypes = {
     name: PropTypes.string.isRequired,
     total_sale: PropTypes.number,
-    slug: PropTypes.string.isRequired,
     image: PropTypes.shape({
         src: PropTypes.oneOfType([PropTypes.shape(), PropTypes.string])
             .isRequired,

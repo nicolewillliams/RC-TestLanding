@@ -13,16 +13,13 @@ import PlaceBidModal from "@components/modals/placebid-modal";
 const Product = ({
     overlay,
     title,
-    slug,
     artist,
     price,
     likeCount,
     auction_date,
     image,
-    bitCount,
     authors,
     placeBid,
-    disableShareDropdown,
 }) => {
     const [showBidModal, setShowBidModal] = useState(false);
     const handleBidModal = () => {
@@ -39,7 +36,7 @@ const Product = ({
             >
                 <div className="card-thumbnail">
                     {image?.src && (
-                        <Anchor path={`/sign-up`}>
+                        <Anchor path="/sign-up">
                             <Image
                                 src={image.src}
                                 alt={image?.alt || "NFT_portfolio"}
@@ -65,7 +62,7 @@ const Product = ({
                                 image={client.image}
                             />
                         ))}
-                        <Anchor className="more-author-text" path={`/sign-up`}>
+                        <Anchor className="more-author-text" path="/sign-up">
                             Biggest Fans
                         </Anchor>
                     </div>
@@ -84,7 +81,6 @@ const Product = ({
 Product.propTypes = {
     overlay: PropTypes.bool,
     title: PropTypes.string.isRequired,
-    slug: PropTypes.string.isRequired,
     artist: PropTypes.string.isRequired,
     price: PropTypes.shape({
         amount: PropTypes.number.isRequired,
@@ -100,9 +96,7 @@ Product.propTypes = {
             image: ImageType.isRequired,
         })
     ),
-    bitCount: PropTypes.number,
     placeBid: PropTypes.bool,
-    disableShareDropdown: PropTypes.bool,
 };
 
 Product.defaultProps = {
