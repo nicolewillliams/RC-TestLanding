@@ -34,13 +34,16 @@ const ProductDetailsArea = ({ space, className, product }) => (
                             likeCount={product.likeCount}
                         />
                         <span className="bid">
-                            Height bid{" "}
+                            Price Per Share:{" "}
                             <span className="price">
                                 {product.price.amount}
                                 {product.price.currency}
                             </span>
                         </span>
-                        <h6 className="title-name">#22 Portal , Info bellow</h6>
+                        <h6 className="title-name">
+                            Contract Address:
+                            0xBB15ea27c99e13f7e93CA095AEd75780e8464416{" "}
+                        </h6>
                         <div className="catagory-collection">
                             <ProductCategory owner={product.owner} />
                             <ProductCollection

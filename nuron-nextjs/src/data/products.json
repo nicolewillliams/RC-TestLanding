@@ -16,10 +16,10 @@
                 "src": "/images/albumcovers/heatwaves.jpeg"
             },
             {
-                "src": "/images/portfolio/lg/portfolio-02.jpg"
+                "src": "/images/albumcovers/pineapple.jpeg"
             },
             {
-                "src": "/images/portfolio/lg/portfolio-03.jpg"
+                "src": "/images/albumcovers/zaba.jpg"
             }
         ],
         "auction_date": "2024-10-08",
@@ -28,37 +28,37 @@
                 "name": "Mark Jordan",
                 "slug": "/author",
                 "image": {
-                    "src": "/images/client/client-2.png"
+                    "src": "/images/client/icon-1.png"
                 }
             },
             {
                 "name": "Farik Shaikh",
                 "slug": "/author",
                 "image": {
-                    "src": "/images/client/client-3.png"
+                    "src": "/images/client/icon-2.png"
                 }
             },
             {
-                "name": "John Doe",
+                "name": "Jane Doe",
                 "slug": "/author",
                 "image": {
-                    "src": "/images/client/client-5.png"
+                    "src": "/images/client/icon-3.png"
                 }
             }
         ],
         "bitCount": 15,
         "owner": {
-            "name": "Brodband",
+            "name": "Artist",
             "slug": "/author",
             "image": {
-                "src": "/images/client/client-1.png"
+                "src": "/images/client/davey.jpeg"
             }
         },
         "collection": {
-            "name": "Art Decco",
+            "name": "Indie/ Alternative",
             "slug": "/collection",
             "image": {
-                "src": "/images/client/client-2.png"
+                "src": "/images/client/indie.jpeg"
             },
             "total_sale": "2500,000"
         },
@@ -217,7 +217,7 @@
                     "name": "Allen Waltker",
                     "slug": "/author",
                     "image": {
-                        "src": "/images/client/client-3.png"
+                        "src": "/images/client/icon-1.png"
                     }
                 },
                 "amount": "0.234wETH",
@@ -229,7 +229,7 @@
                     "name": "Joe Biden",
                     "slug": "/author",
                     "image": {
-                        "src": "/images/client/client-4.png"
+                        "src": "/images/client/icon-2.png"
                     }
                 },
                 "amount": "0.09wETH",
@@ -241,7 +241,7 @@
                     "name": "Sonial Mridha",
                     "slug": "/author",
                     "image": {
-                        "src": "/images/client/client-5.png"
+                        "src": "/images/client/icon-3.png"
                     }
                 },
                 "amount": "0.07wETH",
@@ -253,7 +253,7 @@
                     "name": "Tribute Dhusra",
                     "slug": "/author",
                     "image": {
-                        "src": "/images/client/client-6.png"
+                        "src": "/images/client/icon-2.png"
                     }
                 },
                 "amount": "0.07wETH",
@@ -265,7 +265,7 @@
                     "name": "Sonia Sobnom",
                     "slug": "/author",
                     "image": {
-                        "src": "/images/client/client-7.png"
+                        "src": "/images/client/icon-1.png"
                     }
                 },
                 "amount": "0.07wETH",
@@ -278,7 +278,7 @@
                 "name": "Brodband",
                 "slug": "/author",
                 "image": {
-                    "src": "/images/client/client-1.png"
+                    "src": "/images/albumcovers/heatwaves.jpeg"
                 }
             }
         },

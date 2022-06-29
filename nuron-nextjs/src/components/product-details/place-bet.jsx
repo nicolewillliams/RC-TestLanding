@@ -17,7 +17,7 @@ const PlaceBet = ({ highest_bid, auction_date }) => {
             <div className="place-bet-area">
                 <div className="rn-bet-create">
                     <div className="bid-list winning-bid">
-                        <h6 className="title">Winning bit</h6>
+                        <h6 className="title">Song Stock Details</h6>
                         <div className="top-seller-inner-one">
                             <div className="top-seller-wrapper">
                                 {highest_bid.bidder?.image?.src && (
@@ -38,10 +38,7 @@ const PlaceBet = ({ highest_bid, auction_date }) => {
 
                                 <div className="top-seller-content">
                                     <span className="heighest-bid">
-                                        Heighest bid{" "}
-                                        <Anchor path={highest_bid.bidder.slug}>
-                                            {highest_bid.bidder.name}
-                                        </Anchor>
+                                        Price Per Share{" "}
                                     </span>
                                     <span className="count-number">
                                         {highest_bid.amount}
@@ -52,7 +49,7 @@ const PlaceBet = ({ highest_bid, auction_date }) => {
                     </div>
                     {auction_date && (
                         <div className="bid-list left-bid">
-                            <h6 className="title">Auction has ended</h6>
+                            <h6 className="title">Presale has ended</h6>
                             <Countdown className="mt--15" date={auction_date} />
                         </div>
                     )}
@@ -62,7 +59,7 @@ const PlaceBet = ({ highest_bid, auction_date }) => {
                     className="mt--30"
                     onClick={handleBidModal}
                 >
-                    Place a Bid
+                    Buy Shares
                 </Button>
             </div>
             <PlaceBidModal show={showBidModal} handleModal={handleBidModal} />
