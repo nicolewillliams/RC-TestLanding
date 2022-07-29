@@ -4,15 +4,17 @@ import Image from "next/image";
 import clsx from "clsx";
 import Anchor from "@ui/anchor";
 import CountdownTimer from "@ui/countdown/layout-01";
-import ClientAvatar from "@ui/client-avatar";
+import ClientAvatar from "@ui/client-avatar/testing";
 import ProductBid from "@components/product-bid";
 import Button from "@ui/button";
 import { ImageType } from "@utils/types";
 import PlaceBidModal from "@components/modals/placebid-modal";
+import useMobileDetect from "use-mobile-detect-hook";
 
 const Product = ({
     overlay,
     title,
+    slug,
     artist,
     price,
     likeCount,
@@ -25,6 +27,9 @@ const Product = ({
     const handleBidModal = () => {
         setShowBidModal((prev) => !prev);
     };
+
+    const detectMobile = useMobileDetect();
+
     return (
         <>
             <div
@@ -36,7 +41,7 @@ const Product = ({
             >
                 <div className="card-thumbnail">
                     {image?.src && (
-                        <Anchor path="/sign-up">
+                        <Anchor path={`/product/${slug}`}>
                             <Image
                                 src={image.src}
                                 alt={image?.alt || "NFT_portfolio"}
@@ -52,20 +57,28 @@ const Product = ({
                         </Button>
                     )}
                 </div>
-                <div className="product-share-wrapper">
-                    <div className="profile-share">
-                        {authors?.map((client) => (
-                            <ClientAvatar
-                                key={client.name}
-                                slug={client.slug}
-                                name={client.name}
-                                image={client.image}
-                            />
-                        ))}
-                        <Anchor className="more-author-text" path="/sign-up">
-                            Biggest Fans
-                        </Anchor>
-                    </div>
+                <div>
+                    {detectMobile.isMobile() ? (
+                        <br></br>
+                    ) : (
+                        <div className="product-share-wrapper">
+                            <div className="profile-share">
+                                {authors?.map((client) => (
+                                    <ClientAvatar
+                                        key={client.name}
+                                        name={client.name}
+                                        image={client.image}
+                                    />
+                                ))}
+                                <Anchor
+                                    className="more-author-text"
+                                    path="/sign-up"
+                                >
+                                    Biggest Fans
+                                </Anchor>
+                            </div>
+                        </div>
+                    )}
                 </div>
                 <Anchor>
                     <span className="product-name">{title}</span>

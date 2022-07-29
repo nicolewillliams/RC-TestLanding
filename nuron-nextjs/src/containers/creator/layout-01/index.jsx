@@ -66,7 +66,7 @@ const CreatorArea = ({ className, space, id, data }) => {
                     {sellers.slice(0, 8).map((seller) => (
                         <div
                             key={seller.id}
-                            className="creator-single col-lg-3 col-md-4 col-sm-6"
+                            className="creator-single col-lg-3 col-md-4 col-sm-6 col-4"
                         >
                             <TopSeller
                                 className="explore"

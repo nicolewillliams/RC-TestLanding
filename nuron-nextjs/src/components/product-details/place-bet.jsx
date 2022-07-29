@@ -22,7 +22,7 @@ const PlaceBet = ({ highest_bid, auction_date }) => {
                             <div className="top-seller-wrapper">
                                 {highest_bid.bidder?.image?.src && (
                                     <div className="thumbnail">
-                                        <Anchor path={highest_bid.bidder.slug}>
+                                        <Anchor path="/sign-up">
                                             <Image
                                                 src={
                                                     highest_bid.bidder.image.src

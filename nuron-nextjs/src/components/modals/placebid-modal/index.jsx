@@ -48,7 +48,7 @@ const PlaceBidModal = ({ show, handleModal }) => (
                     </div>
                 </div>
                 <div className="bit-continue-button">
-                    <Button path="/connect" size="medium" fullwidth>
+                    <Button path="/sign-up" size="medium" fullwidth>
                         Purchase Shares
                     </Button>
                     <Button

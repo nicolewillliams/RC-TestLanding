@@ -8,8 +8,8 @@ const MarqueeBanner = () => (
                     <p>
                         Coming Soon! Our devs are hard at work creating a new,
                         decentralized music experience. Check out this preview
-                        of what &apos;s to come and don &apos;t forget to sign
-                        up for early access!
+                        of what&apos;s to come and don&apos;t forget to sign up
+                        for early access!
                     </p>
                 </div>
             </Marquee>

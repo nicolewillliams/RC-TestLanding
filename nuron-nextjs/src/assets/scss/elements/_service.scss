@@ -33,6 +33,10 @@
                 right: 0;
                 top: -29px;
             }
+            @media #{$large-mobile} {
+                right: 0;
+                top: -29px;
+            }
             svg {
                 width: 60px;
                 height: auto;
@@ -43,7 +47,10 @@
             img {
                 max-height: 85px !important;
                 @media #{$sm-layout} {
-                    max-height: 67px;
+                    max-height: 67px !important;
+                }
+                @media #{$large-mobile} {
+                    max-height: 67px !important;
                 }
             }
         }

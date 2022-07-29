@@ -122,6 +122,9 @@
         font-weight: 400;
         font-size: 16px;
         margin-top: 10px;
+        @media #{$large-mobile} {
+            font-size: 10px;
+        }
     }
 
     .bid-react-area {
@@ -132,6 +135,9 @@
         .last-bid {
             font-weight: 500;
             color: var(--color-primary);
+            @media #{$large-mobile} {
+                font-size: 10px;
+            }
         }
 
         .react-area {
@@ -147,6 +153,9 @@
                 &.number {
                     font-size: 14px;
                     position: relative;
+                    @media #{$large-mobile} {
+                        font-size: 10px;
+                    }
                 }
             }
 
@@ -228,6 +237,9 @@
                 border-radius: 50%;
                 border: 2px solid var(--color-border) !important;
                 transition: var(--transition);
+                @media #{$large-mobile} {
+                    max-width: 15px;
+                }
             }
 
             &.more-author-text {
@@ -238,6 +250,9 @@
                 &:hover {
                     transform: none;
                     color: var(--color-primary);
+                }
+                @media #{$large-mobile} {
+                    font-size: 10px;
                 }
             }
 

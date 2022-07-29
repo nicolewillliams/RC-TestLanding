@@ -26,7 +26,7 @@ const ServiceArea = ({ className, id, space, data }) => (
                 <div className="row g-5">
                     {data.items.map((item) => (
                         <div
-                            className="col-xxl-3 col-lg-4 col-md-6 col-sm-6 col-12"
+                            className="col-xxl-3 col-lg-4 col-md-6 col-sm-6 col-6"
                             key={item.id}
                         >
                             <Service

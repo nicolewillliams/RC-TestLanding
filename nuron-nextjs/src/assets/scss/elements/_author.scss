@@ -169,6 +169,9 @@
             --scale: 1;
         }
     }
+    @media #{$large-mobile} {
+        max-width: 10px;
+    }
 }
 
 .title-filter-area {

@@ -9,9 +9,11 @@ import ServiceArea from "@containers/services/layout-01";
 import RankingArea from "@containers/ranking";
 import MarqueeBanner from "@components/marquee";
 import { normalizedData } from "@utils/methods";
+import useMobileDetect from "use-mobile-detect-hook";
 
 // Demo data
 import homepageData from "../data/homepages/home-06.json";
+import homepageDataMobile from "../data/homepages/home-06-mobile.json";
 import sellerData from "../data/sellers.json";
 import productData from "../data/products.json";
 import rankingData from "../data/ranking.json";
@@ -21,7 +23,10 @@ export async function getStaticProps() {
 }
 
 const Home = () => {
-    const content = normalizedData(homepageData?.content || []);
+    const detectMobile = useMobileDetect();
+    const content = detectMobile.isMobile()
+        ? normalizedData(homepageDataMobile?.content || [])
+        : normalizedData(homepageData?.content || []);
 
     return (
         <Wrapper>
@@ -44,7 +49,6 @@ const Home = () => {
                 />
                 <RankingArea data={{ ranking: rankingData }} />
                 <ServiceArea data={content["service-section1"]} />
-                <ServiceArea data={content["service-section2"]} />
             </main>
             <Footer />
         </Wrapper>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import clsx from "clsx";
 import Anchor from "@ui/anchor";
 import CountdownTimer from "@ui/countdown/layout-01";
-import ClientAvatar from "@ui/client-avatar";
+import ClientAvatar from "@ui/client-avatar/functional";
 import ShareDropdown from "@components/share-dropdown";
 import ProductBid from "@components/product-bid";
 import Button from "@ui/button";

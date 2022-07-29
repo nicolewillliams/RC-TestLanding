@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import Image from "next/image";
-import ClientAvatar from "@ui/client-avatar";
+import ClientAvatar from "@ui/client-avatar/functional";
 import Anchor from "@ui/anchor";
 import { ImageType } from "@utils/types";
 

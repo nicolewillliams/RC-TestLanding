@@ -57,7 +57,7 @@ const ExploreProductArea = ({ className, space, data }) => {
                             />
                         )}
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 col-12">
                         <FilterButtons
                             buttons={filters}
                             filterHandler={filterHandler}

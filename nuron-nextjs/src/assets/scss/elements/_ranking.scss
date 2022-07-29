@@ -6,6 +6,9 @@ tbody {
             td {
                 padding: 10px 25px !important;
                 vertical-align: middle !important;
+                @media #{$large-mobile} {
+                    padding: 5px 15px !important;
+                }
                 .thumbnail {
                     margin-right: 10px;
                     border: 2px solid var(--color-border);
