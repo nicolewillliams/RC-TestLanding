@@ -1,0 +1,182 @@
+{
+    "title": "home-06",
+    "content": [
+        {
+            "section": "hero-section",
+            "banners": [
+                {
+                    "id": 1,
+                    "title": "WELCOME TO RADIOCHAIN",
+                    "description": "Turning the world's music library into a stock market exchange. Join the movement today!",
+                    "buttons": [
+                        {
+                            "id": 1,
+                            "content": "Get Started"
+                        }
+                    ],
+                    "image": {
+                        "src": "/images/banner/mobilebanner.png"
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": "AN INNOVATIVE BUSINESS MODEL FOR THE MUSIC INDUSTRY",
+                    "description": "The current streaming model is outdated. Radiochain brings the latest tech to music - helping artists get compensated fairly.",
+                    "buttons": [
+                        {
+                            "id": 1,
+                            "content": "Get Started"
+                        }
+                    ],
+                    "image": {
+                        "src": "/images/banner/mobilebanner.png"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": "THE HOTTEST MUSIC ON THE BLOCK(CHAIN)",
+                    "description": "By leveraging the capabilities of blockchain tech, we create a 1:1 relationship between fans and artists - the way it was meant to be.",
+                    "buttons": [
+                        {
+                            "id": 1,
+                            "content": "Get Started"
+                        }
+                    ],
+                    "image": {
+                        "src": "/images/banner/mobilebanner.png"
+                    }
+                }
+            ]
+        },
+        {
+            "section": "collection-section",
+            "section_title": {
+                "title": "Top Collection"
+            }
+        },
+        {
+            "section": "explore-product-section",
+            "section_title": {
+                "title": "Explore Songs"
+            }
+        },
+        {
+            "section": "top-sller-section",
+            "section_title": {
+                "title": "Radiochain Top Artists"
+            }
+        },
+        {
+            "section": "service-section1",
+            "section_title": {
+                "title": "Are You a Fan? Earn Money While You Listen"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Set up your wallet",
+                    "path": "/connect",
+                    "subtitle": "Step-01",
+                    "description": "Connect your wallet to start investing in your favorite tracks and artists.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-7.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Create your profile",
+                    "path": "/collection",
+                    "subtitle": "Step-02",
+                    "description": "Set up your profile to connect with friends and see who's listening to what.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-1.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Curate your library",
+                    "path": "/connect",
+                    "subtitle": "Step-03",
+                    "description": "Listen to songs, and invest in your favorites. Earn money while your song stocks grow.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-5.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Help artists get compensated fairly!",
+                    "path": "/creator",
+                    "subtitle": "Step-04",
+                    "description": "By using Radiochain, you're supporting a business model that benefits artists. From all of us - thank you!",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-6.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "service-section2",
+            "section_title": {
+                "title": "Are You an Artist? Join the Radiochain Team"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Set up your wallet",
+                    "path": "/connect",
+                    "subtitle": "Step-01",
+                    "description": "Connect your wallet to let fans invest directly into you. Check out our artist information page for more details.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-7.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "title": "Create your profile",
+                    "path": "/collection",
+                    "subtitle": "Step-02",
+                    "description": "Show the people who you are. Set up a profile that showcases your art to your fans.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-1.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "title": "Upload your tracks",
+                    "path": "/connect",
+                    "subtitle": "Step-03",
+                    "description": "Each song you upload will become a stock on our platform. Smart contracts make sure you get paid fairly.",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-5.png"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "title": "Engage with your fans",
+                    "path": "/creator",
+                    "subtitle": "Step-04",
+                    "description": "Easily see how big a fan is by seeing who's purchased your song stocks. Send them a thanks!",
+                    "images": [
+                        {
+                            "src": "/images/icons/shape-6.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
