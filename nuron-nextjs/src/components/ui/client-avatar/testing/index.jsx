@@ -18,7 +18,6 @@ const ClientAvatar = ({ name, image }) => (
 );
 
 ClientAvatar.propTypes = {
-    slug: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     image: ImageType.isRequired,
 };

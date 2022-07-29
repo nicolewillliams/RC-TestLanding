@@ -59,7 +59,7 @@ const Product = ({
                 </div>
                 <div>
                     {detectMobile.isMobile() ? (
-                        <br></br>
+                        <br />
                     ) : (
                         <div className="product-share-wrapper">
                             <div className="profile-share">
@@ -94,6 +94,7 @@ const Product = ({
 Product.propTypes = {
     overlay: PropTypes.bool,
     title: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
     artist: PropTypes.string.isRequired,
     price: PropTypes.shape({
         amount: PropTypes.number.isRequired,
