@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Nicole Williams",
+        "description": "Founder and CEO, Blockchain Dev",
+        "image": {
+            "src": "/images/team/nicolepiccrop.jpeg"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Kyle Barone",
+        "description": "Software Engineer",
+        "image": {
+            "src": "/images/team/kylepiccrop.jpeg"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Cale Russell",
+        "description": "Head of Marketing",
+        "image": {
+            "src": "/images/team/calepiccrop.jpeg"
+        }
+    }
+]

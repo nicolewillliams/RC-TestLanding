@@ -129,6 +129,9 @@
     @media #{$sm-layout} {
         font-size: 26px;
     }
+    &.team-section {
+        text-align: center;
+    }
 }
 .about-fluidimg {
     padding: 0 140px;
@@ -197,6 +200,72 @@
             margin-bottom: 20px;
             font-weight: 400;
         }
+    }
+}
+
+.employee-card {
+    justify-content: space-between;
+    border: 1px solid var(--color-border);
+    background: #191925;
+    padding: 50px 40px;
+    border-radius: 5px;
+
+    &.transparent-bg {
+        background: transparent;
+        border: 1px solid var(--color-border);
+        @media #{$smlg-device} {
+            margin-top: 0px;
+        }
+    }
+}
+
+.employee-card-inner {
+    &.center-it {
+        text-align: center;
+    }
+    .thumbnail {
+        img {
+            border-radius: 50%;
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .inner {
+        margin-bottom: 0;
+        align-items: center;
+        justify-content: center;
+        h3 {
+            font-weight: 400;
+            margin-bottom: 15px;
+            line-height: var(--h1);
+        }
+        p {
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+    }
+}
+.content-wrapper {
+    a {
+        .title {
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 4px;
+            transition: var(--transition);
+        }
+
+        &:hover {
+            .title {
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    p {
+        margin-bottom: 4px;
+        font-size: 16px;
     }
 }
 

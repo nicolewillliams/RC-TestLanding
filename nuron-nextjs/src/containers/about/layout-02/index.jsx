@@ -6,99 +6,101 @@ import AboutCard from "@components/about-card";
 import Sticky from "@ui/sticky";
 import { ImageType, ItemType, SectionTitleType } from "@utils/types";
 
-const AboutArea = ({ space, className, data }) => (
-    <div
-        className={clsx(
-            "rn-about-banner-area",
-            space === 1 && "rn-section-gapTop",
-            className
-        )}
-    >
-        <div className="container mb--30">
-            <div className="row">
-                <div className="col-12">
-                    {data?.section_title && (
-                        <SectionTitle
-                            className="about-title-m"
-                            {...data.section_title}
-                        />
-                    )}
+const AboutArea = ({ space, className, data }) => {
+    return (
+        <div
+            className={clsx(
+                "rn-about-banner-area",
+                space === 1 && "rn-section-gapTop",
+                className
+            )}
+        >
+            <div className="container mb--30">
+                <div className="row">
+                    <div className="col-12">
+                        {data?.section_title && (
+                            <SectionTitle
+                                className="about-title-m"
+                                {...data.section_title}
+                            />
+                        )}
+                    </div>
                 </div>
             </div>
-        </div>
-        <div className="container-fluid about-fluidimg ">
-            <div className="row">
-                <div className="img-wrapper">
-                    {data?.image?.src && (
-                        <Image
-                            src={data.image.src}
-                            alt={data.image?.alt || "Slider BG"}
-                            layout="fill"
-                            objectFit="cover"
-                            quality={100}
-                            priority
-                        />
-                    )}
+            <div className="container-fluid about-fluidimg ">
+                <div className="row">
+                    <div className="img-wrapper">
+                        {data?.image?.src && (
+                            <Image
+                                src={data.image.src}
+                                alt={data.image?.alt || "Slider BG"}
+                                layout="fill"
+                                objectFit="cover"
+                                quality={100}
+                                priority
+                            />
+                        )}
+                    </div>
                 </div>
             </div>
-        </div>
-        <div className="container">
-            <div className="row g-5">
-                {data?.items?.[0] && (
-                    <div className="col-lg-6">
-                        <div className="h--100">
-                            <Sticky>
-                                <AboutCard
-                                    className="mt_dec--50 widge-wrapper rbt-sticky-top-adjust"
-                                    title={data.items[0].title}
-                                    desc={data.items[0].description}
-                                    path={data.items[0].path}
-                                />
-                            </Sticky>
+            <div className="container">
+                <div className="row g-5">
+                    {data?.items?.[0] && (
+                        <div className="col-lg-6">
+                            <div className="h--100">
+                                <Sticky>
+                                    <AboutCard
+                                        className="mt_dec--50 widge-wrapper rbt-sticky-top-adjust"
+                                        title={data.items[0].title}
+                                        desc={data.items[0].description}
+                                        path={data.items[0].path}
+                                    />
+                                </Sticky>
+                            </div>
                         </div>
-                    </div>
-                )}
-                {data?.items?.[1] && (
-                    <div className="col-lg-6">
-                        <AboutCard
-                            className="transparent-bg"
-                            title={data.items[1].title}
-                            desc={data.items[1].description}
-                            path={data.items[1].path}
-                        />
-                    </div>
-                )}
-                {data?.items?.[2] && (
-                    <div className="col-lg-6">
-                        <AboutCard
-                            className="transparent-bg"
-                            title={data.items[2].title}
-                            desc={data.items[2].description}
-                        />
-                    </div>
-                )}
-                {data?.items?.[3] && (
-                    <div className="col-lg-6">
-                        <AboutCard
-                            className="transparent-bg"
-                            title={data.items[3].title}
-                            desc={data.items[3].description}
-                        />
-                    </div>
-                )}
-                {data?.items?.[4] && (
-                    <div className="col-lg-6">
-                        <AboutCard
-                            className="transparent-bg"
-                            title={data.items[4].title}
-                            desc={data.items[4].description}
-                        />
-                    </div>
-                )}
+                    )}
+                    {data?.items?.[1] && (
+                        <div className="col-lg-6">
+                            <AboutCard
+                                className="transparent-bg"
+                                title={data.items[1].title}
+                                desc={data.items[1].description}
+                                path={data.items[1].path}
+                            />
+                        </div>
+                    )}
+                    {data?.items?.[2] && (
+                        <div className="col-lg-6">
+                            <AboutCard
+                                className="transparent-bg"
+                                title={data.items[2].title}
+                                desc={data.items[2].description}
+                            />
+                        </div>
+                    )}
+                    {data?.items?.[3] && (
+                        <div className="col-lg-6">
+                            <AboutCard
+                                className="transparent-bg"
+                                title={data.items[3].title}
+                                desc={data.items[3].description}
+                            />
+                        </div>
+                    )}
+                    {data?.items?.[4] && (
+                        <div className="col-lg-6">
+                            <AboutCard
+                                className="transparent-bg"
+                                title={data.items[4].title}
+                                desc={data.items[4].description}
+                            />
+                        </div>
+                    )}
+                </div>
             </div>
         </div>
-    </div>
-);
+    );
+};
 
 AboutArea.propTypes = {
     space: PropTypes.oneOf([1, 2]),

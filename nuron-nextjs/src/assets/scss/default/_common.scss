@@ -355,6 +355,10 @@ nav {
                     @media #{$sm-layout} {
                         padding: 12px 14px;
                     }
+                    @media #{$large-mobile} {
+                        padding: 10px 12px;
+                        margin: 4px;
+                    }
                     &:hover,
                     &.active {
                         background: var(--color-primary);
@@ -465,7 +469,7 @@ nav {
     }
 
     @media #{$large-mobile} {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 .item-4 {

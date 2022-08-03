@@ -11,7 +11,8 @@ const POSTS_PER_PAGE = 6;
 const RankingArea = ({ className, space, data }) => {
     const [ranking, setRanking] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const numberOfPages = Math.ceil(data.ranking.length / POSTS_PER_PAGE);
+    // const numberOfPages = Math.ceil(data.ranking.length / POSTS_PER_PAGE);
+    const numberOfPages = 5;
     const paginationHandler = (page) => {
         setCurrentPage(page);
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -39,7 +40,7 @@ const RankingArea = ({ className, space, data }) => {
                     <div className="col-12">
                         <div className="table-title-area d-flex">
                             <i className="feather-briefcase" />
-                            <h3>Explore Song Stocks by Market Cap</h3>
+                            <h3>Explore By Market Cap</h3>
                         </div>
                         <div className="box-table table-responsive">
                             <table className="table upcoming-projects">

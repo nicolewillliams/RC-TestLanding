@@ -1,0 +1,110 @@
+{
+    "title": "about",
+    "content": [
+        {
+            "section": "about-section",
+            "section_title": {
+                "title": "The hottest music on the block(chain)."
+            },
+            "image": {
+                "src": "/images/banner/mobileab.png"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "What's That?",
+                    "description": "Radiochain is on a mission to provide the music industry with a better business model geared toward artists and fans. Currently, big record labels take a large portion of artist earnings. In 2017, the industry generated $43 billion, and artists only saw 12% of that. While technology has come a long way over the decades, the industry's business model - that is inherently unfair to artists - has not followed suit. Radiochain is here to change that.",
+                    "path": "/blog"
+                },
+                {
+                    "id": 2,
+                    "title": "How?",
+                    "description": "Radiochain turns the world's music library into a stock market exchange using the latest blockchain technology. Every song on the platform has its own stock that fans can invest in. Instead of buying and selling shares of traditional companies, people can invest directly into their favorite artists and tunes. This model, coupled with the use of on-chain smart contracts, creates a new avenue for artists to earn money and do what they love."
+                },
+                {
+                    "id": 3,
+                    "title": "What makes this better for artists?",
+                    "description": "Artists’ complaints about streaming are as old as streaming itself. Services like Spotify and Apple music pay artists less than pennies per stream. The Radiochain business model pays artists up front, and continues to pay them on every transaction related to their song stock. In addition, fans can invest in artists directly. This means people who already dig the way an artist sounds are helping them financially to grow in their career. As the artist uses that investment to grow their discography, the fan is growing their investment."
+                },
+                {
+                    "id": 4,
+                    "title": "What's in it for fans?",
+                    "description": "Have you ever sworn you were one of the first people to be a fan of an artist who then became mega-popular? With Radiochain, you can invest in those artists early-on and watch them (and your investment) grow! By doing this, not only are you supporting that artist to continue making music, but it also makes you part of their fan club where you can recieve exclusive content directly from the artist themself as a thanks for investing in them."
+                }
+            ]
+        },
+        {
+            "section": "quote-section",
+            "section_title": {
+                "title": "\"Web3 Is The Future Of Entertainment\" - Forbes"
+            },
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Radiochain creates a 1:1 relationship between artists and fans - the way it should have always been. The use of blockchain elements lets artists interact with fans on their terms, without big record labels standing in the middle. Feel free to subscribe to our newsletter, and follow along for more information."
+                }
+            ]
+        },
+        {
+            "section": "funfact-section",
+            "section_title": {
+                "title": "Radiochain Statistics"
+            },
+            "funfacts": [
+                {
+                    "id": 1,
+                    "title": "Artists on board",
+                    "counter": 15
+                },
+                {
+                    "id": 2,
+                    "title": "Fans",
+                    "counter": 20,
+                    "suffix": "+"
+                },
+                {
+                    "id": 3,
+                    "title": "Nuron Earning",
+                    "counter": 700
+                },
+                {
+                    "id": 4,
+                    "title": "Level One Seller",
+                    "counter": 900,
+                    "suffix": "+"
+                }
+            ]
+        },
+        {
+            "section": "cta-section",
+            "headings": [
+                {
+                    "id": 1,
+                    "content": "Artists and fans have the power to change the face of the music industry. <br> Sign up to join the movement."
+                }
+            ],
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Subscribing to our newsletter will give you early access to the site, along with other features as we continue to build our marketplace!"
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/sign-up",
+                    "content": "Subscribe"
+                }
+            ],
+            "image": {
+                "src": "/images/banner/purpfans2.webp"
+            }
+        },
+        {
+            "section": "blog-section",
+            "section_title": {
+                "title": "Our Recent Blog"
+            }
+        }
+    ]
+}
