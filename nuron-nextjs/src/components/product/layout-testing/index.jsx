@@ -16,7 +16,7 @@ const Product = ({
     title,
     slug,
     artist,
-    //price,
+    // price,
     likeCount,
     auction_date,
     image,
@@ -41,7 +41,7 @@ const Product = ({
             >
                 <div className="card-thumbnail">
                     {image?.src && (
-                        //<Anchor path={`/product/${slug}`}>
+                        // <Anchor path={`/product/${slug}`}>
                         <Image
                             src={image.src}
                             alt={image?.alt || "NFT_portfolio"}

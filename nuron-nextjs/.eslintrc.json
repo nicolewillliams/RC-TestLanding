@@ -67,7 +67,7 @@
         "react/jsx-indent-props": "off",
         "react/jsx-one-expression-per-line": "off",
         "no-unused-vars": [
-            "warn",
+            "off",
             {
                 "argsIgnorePattern": "^_",
                 "varsIgnorePattern": "^_"
