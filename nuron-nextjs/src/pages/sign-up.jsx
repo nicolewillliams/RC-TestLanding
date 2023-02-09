@@ -11,7 +11,7 @@ export async function getStaticProps() {
 
 const SignUp = () => (
     <Wrapper>
-        <SEO pageTitle="Sign Up" />
+        <SEO pageTitle="Sign Up || " />
         <Header />
         <main id="main-content">
             <Breadcrumb pageTitle="Sign Up" currentPage="Sign Up" />

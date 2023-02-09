@@ -10,6 +10,7 @@ import RankingArea from "@containers/ranking";
 import MarqueeBanner from "@components/marquee";
 import { normalizedData } from "@utils/methods";
 import useMobileDetect from "use-mobile-detect-hook";
+import mixpanel from "mixpanel-browser";
 
 // Demo data
 import homepageData from "../data/homepages/home-06.json";
@@ -22,15 +23,19 @@ export async function getStaticProps() {
     return { props: { className: "template-color-1" } };
 }
 
+const mixpanelToken = "ff164408b5395416a023efd17a895e4e";
+
 const Home = () => {
     const detectMobile = useMobileDetect();
     const content = detectMobile.isMobile()
         ? normalizedData(homepageDataMobile?.content || [])
         : normalizedData(homepageData?.content || []);
 
+    mixpanel.init(mixpanelToken, { debug: true });
+    mixpanel.track("Viewed homepage");
     return (
         <Wrapper>
-            <SEO pageTitle="Home" />
+            <SEO />
             <Header />
             <main id="main-content">
                 <HeroArea data={content["hero-section"]} />
@@ -47,8 +52,6 @@ const Home = () => {
                         creators: sellerData,
                     }}
                 />
-                <RankingArea data={{ ranking: rankingData }} />
-                <ServiceArea data={content["service-section1"]} />
             </main>
             <Footer />
         </Wrapper>

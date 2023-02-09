@@ -22,13 +22,12 @@ const About = () => {
         : normalizedData(aboutData?.content || []);
     return (
         <Wrapper>
-            <SEO pageTitle="About" />
+            <SEO pageTitle="About ||" />
             <Header />
             <main id="main-content">
                 <AboutArea data={content["about-section"]} />
-                <QuoteArea data={content["quote-section"]} />
-                <TeamArea data={{ team: teamData }} />
                 <CTAArea data={content["cta-section"]} />
+                <TeamArea data={{ team: teamData }} />
             </main>
             <Footer />
         </Wrapper>

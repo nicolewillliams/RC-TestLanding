@@ -77,7 +77,7 @@ const ExploreProductArea = ({ className, space, data }) => {
                                     title={prod.title}
                                     slug={prod.slug}
                                     artist={prod.artist}
-                                    price={prod.price}
+                                    //price={prod.price}
                                     likeCount={prod.likeCount}
                                     image={prod.images?.[0]}
                                     authors={prod.authors}

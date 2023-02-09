@@ -4,8 +4,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 const MailchimpForm = (props) => {
     const postUrl =
-        "https://gmail.us14.list-manage.com/subscribe/post?u=7f83b9893953452fe7b251238&id=a9869c55e6";
-
+        "https://gmail.us14.list-manage.com/subscribe?u=7f83b9893953452fe7b251238&id=a9869c55e6";
     return (
         <div className="mb-5">
             <MailchimpSubscribe

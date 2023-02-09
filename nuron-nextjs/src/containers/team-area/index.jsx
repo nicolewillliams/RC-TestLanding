@@ -20,10 +20,10 @@ const TeamArea = ({ space, className, data }) => {
                     <div className="row g-5">
                         <div className="about-title-m team-section">
                             {" "}
-                            Meet the Team
+                            Our Team
                         </div>
                         {team?.map((member) => (
-                            <div className="col-lg-4">
+                            <div className="col-sm">
                                 <EmployeeCard
                                     className="center-it"
                                     key={member.id}

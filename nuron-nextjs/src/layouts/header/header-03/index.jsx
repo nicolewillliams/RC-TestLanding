@@ -74,7 +74,7 @@ const Header = ({ className }) => {
                                             // onClick={() => authenticate()}
                                             onClick={handleSignupModal}
                                         >
-                                            Connect Wallet
+                                            Sign Up
                                         </Button>
                                     </div>
                                 </div>

@@ -6,7 +6,7 @@
             "banners": [
                 {
                     "id": 1,
-                    "title": "Turning the world's music library <br/> into a stock market exchange",
+                    "title": "The first community-powered </br> record label",
                     "description": "The music industry's current business model is inherently unfair to artists. We're here to change that - are you with us?",
                     "buttons": [
                         {
@@ -20,8 +20,8 @@
                 },
                 {
                     "id": 2,
-                    "title": "The hottest music on the block(chain)",
-                    "description": "By leveraging the capabilities of blockchain tech, we use smart contracts to pay artists directly. No middle-man required.",
+                    "title": "True Music for True Fans",
+                    "description": "As a community-powered record label, we strive to support artists in preserving the sound that made us fall in love with their music in the first place.",
                     "buttons": [
                         {
                             "id": 1,
@@ -29,7 +29,7 @@
                         }
                     ],
                     "image": {
-                        "src": "/images/banner/bannerwhitepurp.png"
+                        "src": "/images/banner/this3.png"
                     }
                 }
             ]

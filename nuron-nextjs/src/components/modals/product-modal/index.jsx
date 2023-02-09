@@ -26,10 +26,12 @@ const ProductModal = ({ show, handleModal, data }) => (
                 title={data.name}
                 slug="/product"
                 artist="6/30"
+                /*
                 price={{
                     amount: +data.price,
                     currency: "wETH",
                 }}
+                */
                 likeCount={300}
                 image={{ src: URL.createObjectURL(data.image) }}
                 authors={[

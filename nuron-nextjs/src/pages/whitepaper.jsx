@@ -12,7 +12,7 @@ export async function getStaticProps() {
 
 const Contact = () => (
     <Wrapper>
-        <SEO pageTitle="Whitepaper" />
+        <SEO pageTitle="Whitepaper ||" />
         <Header />
         <main id="main-content">
             <Breadcrumb pageTitle="Whitepaper" currentPage="Whitepaper" />

@@ -9,9 +9,12 @@ import "../assets/css/feather.css";
 import "../assets/scss/style.scss";
 import "react-toastify/dist/ReactToastify.css";
 import SSRProvider from "react-bootstrap/SSRProvider";
+import mixpanel from "mixpanel-browser";
 
 const moralisAppId = "Zgi9h3xvYrvXHJZmYjgzbfxlTPnDq6H3RytmW0qt";
 const moralisServerURL = "https://mrnuat16od8z.usemoralis.com:2053/server";
+
+const mixpanelToken = "ff164408b5395416a023efd17a895e4e";
 
 const MyApp = ({ Component, pageProps }) => {
     const router = useRouter();
@@ -25,6 +28,9 @@ const MyApp = ({ Component, pageProps }) => {
     useEffect(() => {
         document.body.className = `${pageProps.className}`;
     });
+
+    mixpanel.init(mixpanelToken, { debug: true });
+
     return (
         <SSRProvider>
             <MoralisProvider appId={moralisAppId} serverUrl={moralisServerURL}>

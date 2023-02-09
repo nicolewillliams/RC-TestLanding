@@ -6,7 +6,7 @@ import Anchor from "@ui/anchor";
 import CountdownTimer from "@ui/countdown/layout-01";
 import ClientAvatar from "@ui/client-avatar/functional";
 import ShareDropdown from "@components/share-dropdown";
-import ProductBid from "@components/product-bid";
+import ProductBid from "@components/product-bid/index_withETH";
 import Button from "@ui/button";
 import { ImageType } from "@utils/types";
 import PlaceBidModal from "@components/modals/placebid-modal";

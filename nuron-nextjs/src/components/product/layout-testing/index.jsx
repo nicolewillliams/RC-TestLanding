@@ -5,7 +5,7 @@ import clsx from "clsx";
 import Anchor from "@ui/anchor";
 import CountdownTimer from "@ui/countdown/layout-01";
 import ClientAvatar from "@ui/client-avatar/testing";
-import ProductBid from "@components/product-bid";
+import ProductBid from "@components/product-bid/index_noETH";
 import Button from "@ui/button";
 import { ImageType } from "@utils/types";
 import PlaceBidModal from "@components/modals/placebid-modal";
@@ -16,7 +16,7 @@ const Product = ({
     title,
     slug,
     artist,
-    price,
+    //price,
     likeCount,
     auction_date,
     image,
@@ -41,14 +41,14 @@ const Product = ({
             >
                 <div className="card-thumbnail">
                     {image?.src && (
-                        <Anchor path={`/product/${slug}`}>
-                            <Image
-                                src={image.src}
-                                alt={image?.alt || "NFT_portfolio"}
-                                width={533}
-                                height={533}
-                            />
-                        </Anchor>
+                        //<Anchor path={`/product/${slug}`}>
+                        <Image
+                            src={image.src}
+                            alt={image?.alt || "NFT_portfolio"}
+                            width={533}
+                            height={533}
+                        />
+                        // </Anchor>
                     )}
                     {auction_date && <CountdownTimer date={auction_date} />}
                     {placeBid && (
@@ -84,7 +84,7 @@ const Product = ({
                     <span className="product-name">{title}</span>
                 </Anchor>
                 <span className="latest-bid">Artist: {artist}</span>
-                <ProductBid price={price} likeCount={likeCount} />
+                <ProductBid likeCount={likeCount} />
             </div>
             <PlaceBidModal show={showBidModal} handleModal={handleBidModal} />
         </>
@@ -96,10 +96,12 @@ Product.propTypes = {
     title: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
     artist: PropTypes.string.isRequired,
+    /*
     price: PropTypes.shape({
         amount: PropTypes.number.isRequired,
         currency: PropTypes.string.isRequired,
     }).isRequired,
+    */
     likeCount: PropTypes.number.isRequired,
     auction_date: PropTypes.string,
     image: ImageType.isRequired,

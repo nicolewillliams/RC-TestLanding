@@ -2,25 +2,17 @@
     {
         "id": 1,
         "title": "Nicole Williams",
-        "description": "Founder and CEO, Blockchain Dev",
+        "description": "Founder and CEO",
         "image": {
             "src": "/images/team/nicolepiccrop.jpeg"
         }
     },
     {
         "id": 2,
-        "title": "Kyle Barone",
-        "description": "Software Engineer",
+        "title": "James Hugen",
+        "description": "Cofounder and COO",
         "image": {
             "src": "/images/team/kylepiccrop.jpeg"
-        }
-    },
-    {
-        "id": 3,
-        "title": "Cale Russell",
-        "description": "Head of Marketing",
-        "image": {
-            "src": "/images/team/calepiccrop.jpeg"
         }
     }
 ]

@@ -4,7 +4,7 @@
         {
             "section": "about-section",
             "section_title": {
-                "title": "The hottest music on the block(chain)."
+                "title": "The Record Label of the Future"
             },
             "image": {
                 "src": "/images/banner/welcome-banner-v2.png"
@@ -12,36 +12,36 @@
             "items": [
                 {
                     "id": 1,
-                    "title": "What's That?",
-                    "description": "Radiochain is on a mission to provide the music industry with a better business model geared toward artists and fans. Currently, big record labels take a large portion of artist earnings. In 2017, the industry generated $43 billion, and artists only saw 12% of that. While technology has come a long way over the decades, the industry's business model - that is inherently unfair to artists - has not followed suit. Radiochain is here to change that.",
+                    "title": "Are you listening to any emerging artists right now?",
+                    "description": "Discovering new and exciting artists is a passion for many music lovers. Are you always on the hunt for the next big thing? Join the community and share your finds with like-minded individuals.",
                     "path": "/blog"
                 },
                 {
                     "id": 2,
-                    "title": "How?",
-                    "description": "Radiochain turns the world's music library into a stock market exchange using the latest blockchain technology. Every song on the platform has its own stock that fans can invest in. Instead of buying and selling shares of traditional companies, people can invest directly into their favorite artists and tunes. This model, coupled with the use of on-chain smart contracts, creates a new avenue for artists to earn money and do what they love."
+                    "title": "Have you ever been one of the first listeners of an artist before they became popular?",
+                    "description": "Discovering artists before they become mainstream is a reward for those who pay close attention to the music scene. Have you been one of the first listeners? Share your story and connect with others on Radiochain."
                 },
                 {
                     "id": 3,
-                    "title": "What makes this better for artists?",
-                    "description": "Artists’ complaints about streaming are as old as streaming itself. Services like Spotify and Apple music pay artists less than pennies per stream. The Radiochain business model pays artists up front, and continues to pay them on every transaction related to their song stock. In addition, fans can invest in artists directly. This means people who already dig the way an artist sounds are helping them financially to grow in their career. As the artist uses that investment to grow their discography, the fan is growing their investment."
+                    "title": "Want more say in what artists get promoted?",
+                    "description": "Music industry promotion should reflect the tastes of its listeners. Do you want more say in the matter? Join the Radiochain community and use your voice to help determine which artists get the recognition they deserve."
                 },
                 {
                     "id": 4,
-                    "title": "What's in it for fans?",
-                    "description": "Have you ever sworn you were one of the first people to be a fan of an artist who then became mega-popular? With Radiochain, you can invest in those artists early-on and watch them (and your investment) grow! By doing this, not only are you supporting that artist to continue making music, but it also makes you part of their fan club where you can recieve exclusive content directly from the artist themself as a thanks for investing in them."
+                    "title": "Want to be a part of the music industry?",
+                    "description": "Radiochain is the perfect place for you. As a community-driven record label, you can be a part of the decision-making process and help shape the careers of up-and-coming artists."
                 }
             ]
         },
         {
             "section": "quote-section",
             "section_title": {
-                "title": "\"Web3 Is The Future Of Entertainment\" - Forbes"
+                "title": "Sign up to join the Radiochain record label"
             },
             "texts": [
                 {
                     "id": 1,
-                    "content": "Radiochain creates a 1:1 relationship between artists and fans - the way it should have always been. The use of blockchain elements lets artists interact with fans on their terms, without big record labels standing in the middle. Feel free to subscribe to our newsletter, and follow along for more information."
+                    "content": "Join the future of the music industry with Radiochain. As a community-driven record label, you can be a part of the decision-making process and help shape the careers of up-and-coming artists."
                 }
             ]
         },
@@ -80,20 +80,20 @@
             "headings": [
                 {
                     "id": 1,
-                    "content": "Artists and fans have the power to change the face of the music industry. <br> Sign up to join the movement."
+                    "content": "Join the Radiochain Record Label"
                 }
             ],
             "texts": [
                 {
                     "id": 1,
-                    "content": "Subscribing to our newsletter will give you early access to the site, along with other features as we continue to build our marketplace!"
+                    "content": ""
                 }
             ],
             "buttons": [
                 {
                     "id": 1,
                     "path": "/sign-up",
-                    "content": "Subscribe"
+                    "content": "Sign Up"
                 }
             ],
             "image": {

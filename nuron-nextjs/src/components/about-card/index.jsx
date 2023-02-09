@@ -29,7 +29,7 @@ const AboutCard = ({ className, title, desc, path }) => (
                     data-sal-duration="800"
                     data-sal-delay="150"
                 >
-                    Sign Up For Early Access and More Info!
+                    Sign Up
                 </Button>
             )}
         </div>

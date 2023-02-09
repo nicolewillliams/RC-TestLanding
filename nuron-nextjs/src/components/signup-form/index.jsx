@@ -8,21 +8,25 @@ const SignupForm = ({ className, status, message, onValidated }) => {
     const [email, setEmail] = useState("");
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
+    const [userType, setUserType] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
         email &&
             firstName &&
             lastName &&
+            userType &&
             email.indexOf("@") > -1 &&
             onValidated({
                 EMAIL: email,
                 MERGE1: firstName,
                 MERGE2: lastName,
+                MERGE3: userType,
             });
         email &&
             !firstName &&
             !lastName &&
+            !userType &&
             email.indexOf("@") > -1 &&
             onValidated({
                 EMAIL: email,
@@ -91,6 +95,16 @@ const SignupForm = ({ className, status, message, onValidated }) => {
                             }
                             type="text"
                             id="lastname"
+                        />
+                        <label htmlFor="usertype" className="form-label">
+                            User Type
+                        </label>
+                        <input
+                            onChange={(event) =>
+                                setUserType(event?.target?.value ?? "")
+                            }
+                            type="radio"
+                            id="usertype"
                         />
                     </div>
                 ) : null}
