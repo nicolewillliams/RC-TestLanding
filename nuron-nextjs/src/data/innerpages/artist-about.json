@@ -1,0 +1,110 @@
+{
+    "title": "artist-about",
+    "content": [
+        {
+            "section": "artist-about-section",
+            "section_title": {
+                "title": "The Record Label of the Future"
+            },
+            "image": {
+                "src": "/images/banner/welcome-banner-v2.png"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "title": "Are you looking for a way to break into the music industry?",
+                    "description": "Radiochain offers emerging artists a unique opportunity to break into the music industry by being part of a community-powered record label that supports and amplifies their authentic voice.",
+                    "path": "/blog"
+                },
+                {
+                    "id": 2,
+                    "title": "Are you tired of the traditional record label experience?",
+                    "description": "Say goodbye to the challenges that come with navigating traditional music industry labels and hello to a new way of doing things with Radiochain's artist-focused approach. Our platform empowers emerging artists to take control of their careers and gain support from a passionate community of music lovers."
+                },
+                {
+                    "id": 3,
+                    "title": "Struggling to reach new listeners on crowded social media platforms?",
+                    "description": "Join Radiochain and get your music in front of a dedicated community of music lovers who are eager to discover and support emerging artists."
+                },
+                {
+                    "id": 4,
+                    "title": "Ready to take your music career to the next level?",
+                    "description": "Join Radiochain, the community-powered record label that helps emerging artists like you break into the music industry. Our platform connects you with fans and fellow artists who support your vision and creative growth."
+                }
+            ]
+        },
+        {
+            "section": "quote-section",
+            "section_title": {
+                "title": "Sign up to join the Radiochain record label"
+            },
+            "texts": [
+                {
+                    "id": 1,
+                    "content": "Join the future of the music industry with Radiochain. As a community-driven record label, you can be a part of the decision-making process and help shape the careers of up-and-coming artists."
+                }
+            ]
+        },
+        {
+            "section": "funfact-section",
+            "section_title": {
+                "title": "Radiochain Statistics"
+            },
+            "funfacts": [
+                {
+                    "id": 1,
+                    "title": "Artists on board",
+                    "counter": 15
+                },
+                {
+                    "id": 2,
+                    "title": "Fans",
+                    "counter": 20,
+                    "suffix": "+"
+                },
+                {
+                    "id": 3,
+                    "title": "Nuron Earning",
+                    "counter": 700
+                },
+                {
+                    "id": 4,
+                    "title": "Level One Seller",
+                    "counter": 900,
+                    "suffix": "+"
+                }
+            ]
+        },
+        {
+            "section": "cta-section",
+            "headings": [
+                {
+                    "id": 1,
+                    "content": "Join the Radiochain Record Label"
+                }
+            ],
+            "texts": [
+                {
+                    "id": 1,
+                    "content": ""
+                }
+            ],
+            "buttons": [
+                {
+                    "id": 1,
+                    "path": "/sign-up",
+                    "content": "Sign Up"
+                }
+            ],
+            "image": {
+                "src": "/images/banner/purpfans2.webp"
+            }
+        },
+        {
+            "section": "blog-section",
+            "section_title": {
+                "title": "Our Recent Blog"
+            }
+        }
+    ]
+}
