@@ -6,13 +6,5 @@
         "image": {
             "src": "/images/team/nicolepiccrop.jpeg"
         }
-    },
-    {
-        "id": 2,
-        "title": "James Hugen",
-        "description": "Cofounder and COO",
-        "image": {
-            "src": "/images/team/kylepiccrop.jpeg"
-        }
     }
 ]
