@@ -37,11 +37,9 @@ const PlaceBet = ({ highest_bid, auction_date }) => {
                                 )}
 
                                 <div className="top-seller-content">
-                                    <span className="heighest-bid">
-                                        Status{" "}
-                                    </span>
+                                    <span className="heighest-bid">Status</span>
                                     <span className="count-number">
-                                        {"$40,256 / $50,000"}
+                                        $40,256 / $50,000
                                     </span>
                                 </div>
                             </div>

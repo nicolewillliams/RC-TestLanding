@@ -23,7 +23,7 @@ const PlaceBidModal = ({ show, handleModal }) => (
             <h3 className="modal-title">Contribute</h3>
         </Modal.Header>
         <Modal.Body>
-            <p>You are about to buy into Lua Dipa's Campaign!</p>
+            <p>You are about to buy into Lua Dipas Campaign!</p>
             <div className="placebid-form-box">
                 <h5 className="title">Details</h5>
                 <div className="bid-content">
