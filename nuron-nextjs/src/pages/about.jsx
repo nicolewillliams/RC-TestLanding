@@ -18,7 +18,7 @@ import teamData from "../data/team.json";
 const About = () => {
     const detectMobile = useMobileDetect();
     const content = detectMobile.isMobile()
-        ? normalizedData(aboutDataMobile?.content || [])
+        ? normalizedData(aboutData?.content || [])
         : normalizedData(aboutData?.content || []);
     return (
         <Wrapper>

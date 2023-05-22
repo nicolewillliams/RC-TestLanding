@@ -20,10 +20,10 @@ const PlaceBidModal = ({ show, handleModal }) => (
             </button>
         )}
         <Modal.Header>
-            <h3 className="modal-title">Buy Shares</h3>
+            <h3 className="modal-title">Contribute</h3>
         </Modal.Header>
         <Modal.Body>
-            <p>You are about to purchase this stock of Heat Waves</p>
+            <p>You are about to buy into Lua Dipa's Campaign!</p>
             <div className="placebid-form-box">
                 <h5 className="title">Details</h5>
                 <div className="bid-content">
@@ -49,7 +49,7 @@ const PlaceBidModal = ({ show, handleModal }) => (
                 </div>
                 <div className="bit-continue-button">
                     <Button path="/sign-up" size="medium" fullwidth>
-                        Purchase Shares
+                        Purchase
                     </Button>
                     <Button
                         color="primary-alta"

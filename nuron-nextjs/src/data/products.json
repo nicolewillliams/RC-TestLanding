@@ -1429,7 +1429,7 @@
         "title": "Pursuit Of Happiness",
         "slug": "Pursuit Of Happiness",
         "published_at": "24-JUN-2021 08:05:00",
-        "artist": "Kid Cudi",
+        "artist": "Kid Mudi",
         "price": {
             "amount": 0.334,
             "currency": "wETH"
@@ -1476,7 +1476,7 @@
             "name": "Artist",
             "slug": "/author",
             "image": {
-                "src": "/images/client/kidcudi.jpeg"
+                "src": "/images/icons/girl-avater.png"
             }
         },
         "collection": {
@@ -1703,7 +1703,7 @@
                 "name": "Artist",
                 "slug": "/author",
                 "image": {
-                    "src": "/images/albumcovers/motm1.jpeg"
+                    "src": "/images/icons/girl-avater.png"
                 }
             }
         },
@@ -2566,7 +2566,7 @@
         "title": "First Class",
         "slug": "First Class",
         "published_at": "24-JAN-2022 07:55:00",
-        "artist": "Jack Harlow",
+        "artist": "Lua Dipa",
         "price": {
             "amount": 0.566,
             "currency": "wETH"
@@ -2575,7 +2575,7 @@
         "categories": ["Pop", "Hip-Hop"],
         "images": [
             {
-                "src": "/images/albumcovers/firstclass.webp"
+                "src": "/images/artistprofilepics/nftrecords.jpeg"
             },
             {
                 "src": "/images/client/jack2.jpeg"
@@ -2612,7 +2612,7 @@
             "name": "Artist",
             "slug": "/author",
             "image": {
-                "src": "/images/client/jackharlow.jpeg"
+                "src": "/images/artistprofilepics/nftrecords.jpeg"
             }
         },
         "collection": {

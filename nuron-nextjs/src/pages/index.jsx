@@ -28,7 +28,7 @@ const mixpanelToken = "ff164408b5395416a023efd17a895e4e";
 const Home = () => {
     const detectMobile = useMobileDetect();
     const content = detectMobile.isMobile()
-        ? normalizedData(homepageDataMobile?.content || [])
+        ? normalizedData(homepageData?.content || [])
         : normalizedData(homepageData?.content || []);
 
     mixpanel.init(mixpanelToken, { debug: true });

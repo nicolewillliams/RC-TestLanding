@@ -34,7 +34,7 @@ const ProductDetailsArea = ({ space, className, product }) => (
                             likeCount={product.likeCount}
                         />
                         <span className="bid">
-                            Price Per Share:{" "}
+                            Price:{" "}
                             <span className="price">
                                 {product.price.amount}
                                 {product.price.currency}

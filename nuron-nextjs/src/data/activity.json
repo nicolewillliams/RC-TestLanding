@@ -127,17 +127,17 @@
     },
     {
         "id": 8,
-        "title": "Sun Afford",
+        "title": "Lua Dipa",
         "slug": "/product",
-        "description": "10 editions listed by Bits for <span>2.50 ETH</span> each",
+        "description": "You have recieved <span>$40,000</span> from your campaign!",
         "date": "21th June",
         "time": "11:30 PM",
         "author": {
-            "name": "Olive Yew",
+            "name": "Lua Dipa",
             "slug": "/author"
         },
         "image": {
-            "src": "/images/activity/activity-02.jpg"
+            "src": "/images/icons/girl-avater.png"
         },
         "status": "sale",
         "marketFilters": ["purchases", "live auction", "reserved"],
